@@ -18,11 +18,12 @@
 @import 'bootstrap' ;
 
 
-
+//Typography Styles
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+//Background Gradient
 .navbar , .home-callout{
     //Gradient provided by uigradients.com
     background: #FF5F6D; /* fallback for old browsers */
@@ -31,25 +32,20 @@ h1, h2, h3 {
         
 }
 
+// Nav Styles
 .navbar { border:none;}
 
-.navbar-default .navbar-brand {
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a
+{
     color:white;
+    &:hover { 
+        color: white;
+        opacity: 0.75;
+        
+    }
 }
 
-.navbar-default .navbar-nav > li > a {
-    color:white;
-}
-
-.navbar-default .navbar-brand:hover {
- color:white;
- opacity: 0.75;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-    color:white;
-    opacity:0.75;
-}
 
 .home-callout {
     
