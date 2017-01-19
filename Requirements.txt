@@ -4,6 +4,7 @@ Memberships
 * Basic plan should point to regular Devise sign up form
 * Pro plan link should point to a custom sign up form
 
+
 Stripe Integration
 * Users should have a stripe customer token in the users table 
 * Javascript should prevent pro form from submitting, when the users
